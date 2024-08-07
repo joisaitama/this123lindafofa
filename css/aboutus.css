@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Caslon Display', serif;
+    background-color: #f7f7f7;
+    color: #3a2424;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-logo a {
+    color: #000000; 
+    text-decoration: none; 
+    font-family: 'Keania One', cursive; 
+    font-size: 44px; 
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav a {
+    color: #330000;
+    text-decoration: none;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.search-form {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.search-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    border-bottom: 1px solid #d8c9c9;
+    border-top: 1px solid #cecccc;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    color: #9F0707;
+    margin-bottom: 10px;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    color: #9F0707;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.signup-notice {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #800101;
+    border-radius: 5px;
+}
+
+.signup-notice p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #960000;
+}
+
+.footer {
+    background-color: #e9e4e452;
+    color: #3a2424;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 3px solid rgba(136, 129, 129, 0.685);
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Keania One', cursive;
+    font-size: 16px;
+}
+
+.social-item img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 0 10px;
+    }
+}
